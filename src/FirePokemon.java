@@ -2,8 +2,9 @@ import java.util.List;
 
 public class FirePokemon extends Pokemon{
 
-    public FirePokemon(String name, Integer level, Integer hp, String food, String sound, String type, Integer attacks) {
-        super(name, level, hp, food, sound, type, attacks);
+
+    public FirePokemon(String name, Integer level, Integer hp, String food, String sound) {
+        super(name, level, hp, food, sound);
     }
 
     @Override
